@@ -2,12 +2,12 @@ import pygame
 import sys
 import chess
 import math
-from Modules.Board import load_piece_images, draw_board
-from Modules.Clock import ChessClock
-from Modules.MinMax import minimax
-from Modules.Ui import choose_mode, choose_time_control, display_winner
-from Modules.Logic import GameState
-from Modules.Sound import SoundManager
+from Board import load_piece_images, draw_board
+from Clock import ChessClock
+from MinMax import minimax
+from Ui import choose_mode, choose_time_control, display_winner
+from Logic import GameState
+from Sound import SoundManager
 from Constants import *
 
 def main():
